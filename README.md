@@ -156,20 +156,21 @@ As seguintes tecnologias foram utilizadas na construção do projeto:
 ```text
 Saas-Escolar/
 │
-├── css/
-│   └── style.css
-│
-├── js/
-│   ├── alunos.js
-│   ├── app.js
-│   ├── escola.js
-│   ├── professores.js
-│   └── storage.js
-│
-├── pages/
-│   ├── alunos.html
-│   ├── escola.html
-│   └── professores.html
+├── src/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── js/
+│   │   ├── alunos.js
+│   │   ├── app.js
+│   │   ├── escola.js
+│   │   ├── professores.js
+│   │   └── storage.js
+│   │
+│   └── pages/
+│       ├── alunos.html
+│       ├── escola.html
+│       └── professores.html
 │
 ├── index.html
 └── README.md
