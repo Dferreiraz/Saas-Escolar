@@ -214,12 +214,4 @@ Desenvolvedor Front-End em evolução, estudando e desenvolvendo projetos para a
 
 [![GitHub](https://img.shields.io/badge/GitHub-Dferreiraz-181717?style=flat-square\&logo=github\&logoColor=white)](https://github.com/Dferreiraz)
 
----
-
-## 📝 Licença
-
-Este projeto está sob a licença [MIT](./LICENSE).
-
----
-
 Feito por **Davi Ferreira** 👋
