@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Escolar - Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="logo"><h2>SaaS Escolar</h2></div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="pages/escola.html"><i class="fas fa-school"></i> Escolas</a></li>
+                <li><a href="pages/professores.html"><i class="fas fa-chalkboard-teacher"></i> Professores</a></li>
+                <li><a href="pages/alunos.html"><i class="fas fa-user-graduate"></i> Alunos</a></li>
+            </ul>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+            <header class="topbar">
+                <button id="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+                <h1>Visão Geral</h1>
+                <button id="theme-toggle" class="btn"><i class="fas fa-moon"></i></button>
+            </header>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Escolas Cadastradas</h3>
+                    <h2 id="total-escolas">0</h2>
+                </div>
+                <div class="stat-card">
+                    <h3>Professores Ativos</h3>
+                    <h2 id="total-professores">0</h2>
+                </div>
+                <div class="stat-card">
+                    <h3>Alunos Matriculados</h3>
+                    <h2 id="total-alunos">0</h2>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="js/storage.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        // Lógica simples direto na view para o Dashboard
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('total-escolas').innerText = StorageHelper.buscarDados('escolas').length;
+            document.getElementById('total-professores').innerText = StorageHelper.buscarDados('professores').length;
+            document.getElementById('total-alunos').innerText = StorageHelper.buscarDados('alunos').length;
+        });
+    </script>
+</body>
+</html>

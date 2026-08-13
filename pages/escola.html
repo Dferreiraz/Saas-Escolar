@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolas - SaaS Escolar</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="logo"><h2>SaaS Escolar</h2></div>
+            <ul class="nav-links">
+                <li><a href="../index.html"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="escola.html" class="active"><i class="fas fa-school"></i> Escolas</a></li>
+                <li><a href="professores.html"><i class="fas fa-chalkboard-teacher"></i> Professores</a></li>
+                <li><a href="alunos.html"><i class="fas fa-user-graduate"></i> Alunos</a></li>
+            </ul>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+            <header class="topbar">
+                <button id="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+                <h1>Gestão de Escolas</h1>
+                <button id="theme-toggle" class="btn"><i class="fas fa-moon"></i></button>
+            </header>
+
+            <div class="table-container">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 15px;">
+                    <input type="text" id="busca" class="form-control" placeholder="Buscar por nome ou CNPJ..." style="width: 300px;">
+                    <button class="btn btn-primary" id="btn-novo"><i class="fas fa-plus"></i> Nova Escola</button>
+                </div>
+
+                <table id="tabela-escolas">
+                    <thead>
+                        <tr>
+                            <th>Nome da Escola</th>
+                            <th>CNPJ</th>
+                            <th>Diretor(a)</th>
+                            <th>Telefone</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Linhas geradas pelo JS -->
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- MODAL CADASTRO/EDIÇÃO -->
+    <div class="modal-overlay" id="modal-escola">
+        <div class="modal">
+            <h2 id="modal-titulo">Nova Escola</h2>
+            <form id="form-escola">
+                <input type="hidden" id="escola-id">
+                <div class="form-group">
+                    <label>Nome da Instituição</label>
+                    <input type="text" id="nome" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>CNPJ</label>
+                    <input type="text" id="cnpj" class="form-control" data-mask="cnpj" required>
+                </div>
+                <div class="form-group">
+                    <label>Diretor(a) Responsável</label>
+                    <input type="text" id="diretor" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Telefone</label>
+                    <input type="text" id="telefone" class="form-control" data-mask="telefone" required>
+                </div>
+                <div class="form-group">
+                    <label>Email de Contato</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Endereço Completo</label>
+                    <input type="text" id="endereco" class="form-control" required>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn" id="btn-cancelar">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/storage.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/escola.js"></script>
+</body>
+</html>
