@@ -1,4 +1,3 @@
-<<<<<<< develop
 <!-- 
 	PROJETO DESENVOLVIDO DURANTE O CURSO:
 	"Inteligências Artificiais Generativas Aplicada à Programação - ChatGPT"
