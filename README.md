@@ -201,11 +201,4 @@ git push origin minha-feature
 <a href="https://github.com/Dferreiraz">
 Davi Ferreira
 </a>
----
 
-
-Desenvolvedor Front-End em evolução, estudando e desenvolvendo projetos para aprimorar conhecimentos em programação e desenvolvimento web.
-
-[![GitHub](https://img.shields.io/badge/GitHub-Dferreiraz-181717?style=flat-square\&logo=github\&logoColor=white)](https://github.com/Dferreiraz)
-
-Feito por **Davi Ferreira** 👋
