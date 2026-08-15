@@ -63,7 +63,7 @@ Durante o desenvolvimento, a **Inteligência Artificial Generativa** foi utiliza
 
 ---
 
-## 🎨 Layout
+<!-- ## 🎨 Layout
 
 ### Dashboard
 
@@ -82,6 +82,7 @@ Durante o desenvolvimento, a **Inteligência Artificial Generativa** foi utiliza
 ![Alunos](https://github.com/Dferreiraz/Saas-Escolar/blob/main/assets/alunos.png)
 
 > **Observação:** substitua os caminhos das imagens acima pelos screenshots reais do projeto caso você ainda não tenha uma pasta `assets`.
+-->
 
 ---
 
