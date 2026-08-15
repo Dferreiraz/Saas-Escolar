@@ -203,9 +203,6 @@ Davi Ferreira
 </a>
 ---
 
-Feito por **Davi Ferreira** 👋
-=======
-
 
 Desenvolvedor Front-End em evolução, estudando e desenvolvendo projetos para aprimorar conhecimentos em programação e desenvolvimento web.
 
