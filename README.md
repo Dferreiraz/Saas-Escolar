@@ -12,12 +12,10 @@
 <p align="center">
  <a href="#-descrição-do-entregável">Descrição do Entregável</a> •
  <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
  <a href="#-layout">Layout</a> • 
  <a href="#-como-executar-o-projeto">Como executar</a> • 
  <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-autor">Autor</a> • 
- <a href="#-licença">Licença</a>
+ <a href="#-autor">Autor</a> 
 </p>
 
 ---
@@ -203,13 +201,6 @@ git push origin minha-feature
 <a href="https://github.com/Dferreiraz">
 Davi Ferreira
 </a>
-
-<br />
-
-Desenvolvedor Front-End em evolução, estudando e desenvolvendo projetos para aprimorar conhecimentos em programação e desenvolvimento web.
-
-[![GitHub](https://img.shields.io/badge/GitHub-Dferreiraz-181717?style=flat-square\&logo=github\&logoColor=white)](https://github.com/Dferreiraz)
-
 ---
 
 Feito por **Davi Ferreira** 👋
